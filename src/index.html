@@ -10,7 +10,7 @@
     <link href="../dist/output.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="w-11/12 m-auto mb-[110px]">
+  <nav class="w-11/12 m-auto lg:mb-[110px]">
         <div class="flex justify-between items-center p-2">
             <div class="w-1/2">
                 <div class="w-1/5">
@@ -33,8 +33,8 @@
 
 
   <!-- first -->
-    <div class="flex gap-[50px] w-[86.333%] m-auto ">
-        <div class="w-1/2 text-center ">
+    <div class="lg:flex gap-[50px] w-[86.333%] m-auto mb-10">
+        <div class="lg:w-1/2 w-full text-center ">
             <div class="flex justify-center ">
                 <div class="w-1/7 p-6">
                     <a href="#">
@@ -133,24 +133,114 @@
                     </h5>
                </div>
             </div>
+
+            <footer class=" mt-[70%]">
+                <div class="flex gap-3">
+                    <a class="" href="#">
+                        <span class="font-bold mr-2">
+                            Powered by stripe
+                        </span>
+                        <span class="underline mr-2 font-medium">
+                            Terms
+                        </span>
+                        <span class="underline font-medium">
+                            Policy
+                        </span>
+                    </a>
+                </div>
+            </footer>
         </div>
        
-        <div class="w-1 h-screen bg-[#F8F8F8]">
+        <div class=" w-1 lg:hiddenh-[180vh] bg-[#F8F8F8]">
 
         </div>
 
         <!-- secound -->
-        <div class=" w-1/2 justify-items-center ">
-            <div class="w-full bg-black flex justify-center mb-4 p-4 rounded-lg">
-                <a class="  bg-black" href="#">
-                    <img class="w-full " src="Apple_Pay_logo 1.png" alt="">
-                </a> 
+        <div class="lg:w-1/2 w-full justify-items-center ">
+            <div>
+                <div class="w-full bg-black flex justify-center mb-4 p-4 rounded-lg">
+                    <a class="  bg-black" href="#">
+                        <img class="w-full " src="Apple_Pay_logo 1.png" alt="">
+                    </a> 
+                </div>
+                <div class="w-full bg-black flex justify-center mb-4 p-4 rounded-lg">
+                    <a class="  bg-black" href="#">
+                        <img class="w-full " src="Google_Pay_Logo 1.png" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="w-full bg-black flex justify-center mb-4 p-4 rounded-lg">
-                <a class="  bg-black" href="#">
-                    <img class="w-full " src="Google_Pay_Logo 1.png" alt="">
-                </a>
+           
+
+            <!--  -->
+            <div>
+                <div class="w-full h-1 bg-[#F5F6F7] relative mt-10">
+                    <div class="bg-with p-2 text-center absolute top-[-22px] left-[180px] bg-white ">
+                        <p class="">
+                            Or Pay with Card
+                        </p>
+                    </div>
+                </div>
+    
+                <!--  -->
+                <div class="mt-10">   
+                    <div class="py-4 font-bold text-[#6B6B6B]">
+                        <h3>
+                            Card holder information
+                        </h3>
+                    </div>
+                    <div class="w-full border p-2 mb-5 font-semibold">
+                        <input class="w-full" type="text" placeholder="Michelle Rivera">
+                    </div>
+                    <div class="border flex justify-between p-2 mb-5 font-semibold">
+                        <input class="w-full"  type="text" placeholder="123 123 123 123"><img src="image 33.png" alt="">
+                    </div>
+                    <div class=" flex w-full gap-2 justify-between font-semibold">
+                        <div class="w-1/2 border p-2 mb-5 text-center justify-center flex">
+                            <input class="w-full  text-center" type="text" placeholder="MM/YY">
+                        </div>
+                        <div class="w-1/2 border p-2 mb-5 font-semibold">
+                            <input class="w-full text-center" type="text" placeholder="CC">
+                        </div>
+                    </div>
+                    <div class="py-4 font-bold text-[#6B6B6B]">
+                        <p>
+                            Billing Address
+                        </p>
+                    </div>
+                    <div class="border flex justify-between p-2 mb-5 font-semibold">
+                        <input class="w-full"  type="text" placeholder="123 123 123 123"><i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="border flex justify-between p-2 mb-5 font-semibold">
+                        <input class="w-full"  type="text" placeholder="Australia"><i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="border flex justify-between p-2 mb-5 font-semibold">
+                        <input class="w-full" type="text" placeholder="Address line1">
+                    </div>
+                    <div class="border flex justify-between p-2 mb-5 font-semibold">
+                        <input class="w-full" type="text" placeholder="Address line2"><i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class=" flex w-full gap-2 justify-between font-semibold">
+                        <div class="w-1/2 border p-2 mb-5 text-center justify-center flex">
+                            <input class="w-full" type="text" placeholder="City">
+                        </div>
+                        <div class="w-1/2 border p-2 mb-5 font-semibold">
+                            <input class="w-full" type="text" placeholder="ZIP">
+                        </div>
+                    </div>
+                    <div class="border flex justify-between p-2 mb-5 font-semibold">
+                        <input  type="text" placeholder="Address line2"><i class="fa-solid fa-chevron-down"></i>
+                    </div>
+    
+                    <div>
+                        <a  class="bg-[#008BC7] text-center p-3 items-center flex justify-center font-semibold rounded-lg" href="#">
+                            Confirm
+                        </a>
+                    </div>
+                </div>
+                
+                
             </div>
+           
         </div>
     </div>
 
